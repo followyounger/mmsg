@@ -1,0 +1,545 @@
+[ 2017-11-22T09:56:40+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022511s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+SQL: SELECT * FROM `users` WHERE `username` = 'fhg' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012452s ]
+
+[ 2017-11-22T10:07:51+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+
+[ 2017-11-22T10:08:56+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+
+[ 2017-11-22T10:09:12+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-11-22T10:11:04+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-11-22T10:11:05+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-11-22T10:12:37+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-11-22T10:12:39+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-11-22T10:13:07+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-11-22T10:18:39+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2017-11-22T10:18:41+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'fhg' AND `password` = '111' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-11-22T10:19:23+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test01' AND `password` = '111' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-11-22T10:19:25+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test01' AND `password` = '111' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-11-22T10:19:33+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test011' AND `password` = '111' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-11-22T10:19:41+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test01' AND `password` = '111' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-11-22T10:20:33+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test01' AND `password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `username`='test01',`password`='222' WHERE `username` = 'test01' [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-11-22T10:21:21+08:00 ] ::1 /www/mmsg/index.php/home/user/changepassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test01' AND `password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-11-22T12:00:46+08:00 ] ::1 /www/mmsg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-11-22T12:01:28+08:00 ] ::1 /www/mmsg/index.php/home/msg/addmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0089s ]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `msgs` (`title`,`body`) VALUES ('测试title','测试body')
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `msgs` (`title`,`body`) VALUES ('测试title','测试body')
+
+[ 2017-11-22T12:03:51+08:00 ] ::1 /www/mmsg/index.php/home/msg/addmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0015s ]
+SQL: INSERT INTO `msgs` (`title`,`body`,`user_id`) VALUES ('测试title','测试body','1') [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-11-22T12:04:04+08:00 ] ::1 /www/mmsg/index.php/home/msg/addmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0084s ]
+SQL: INSERT INTO `msgs` (`title`,`body`,`user_id`) VALUES ('测试title','测试body','1') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-11-22T12:06:09+08:00 ] ::1 /www/mmsg/index.php/home/msg/addmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0026s ]
+SQL: INSERT INTO `msgs` (`title`,`body`,`user_id`) VALUES ('测试title2','测试body','1') [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-11-22T13:33:32+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023332s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002938s ]
+
+[ 2017-11-22T13:33:43+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-11-22T13:33:44+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-11-22T13:34:06+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-11-22T13:35:48+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-11-22T20:15:29+08:00 ] ::1 /www/mmsg/index.php/home/rmsg/recipemsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020911s ]
+ERR: 1146:Table 'mmsg.rmgs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `rmgs`
+ERR: 1146:Table 'mmsg.rmgs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `rmgs`
+
+[ 2017-11-22T20:16:02+08:00 ] ::1 /www/mmsg/index.php/home/rmsg/recipemsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0235s ]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `rmsgs` (`msgid`,`userid`,`body`) VALUES ('2','2','对id为2的留言添加回复信息')
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `rmsgs` (`msgid`,`userid`,`body`) VALUES ('2','2','对id为2的留言添加回复信息')
+
+[ 2017-11-22T20:19:28+08:00 ] ::1 /www/mmsg/index.php/home/rmsg/recipemsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0016s ]
+SQL: INSERT INTO `rmsgs` (`msgid`,`userid`,`body`) VALUES ('2','2','对id为2的留言添加回复信息') [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013850s ]
+
+[ 2017-11-22T21:37:57+08:00 ] ::1 /www/mmsg/index.php/home/msg/deletemsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0032s ]
+SQL: SELECT `id` FROM `msgs` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0028s ]
+
+[ 2017-11-22T21:38:40+08:00 ] ::1 /www/mmsg/index.php/home/msg/deletemsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `msgs` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0021s ]
+SQL: DELETE FROM `rmsgs` WHERE `msgid` = 2 [ RunTime:0.0062s ]
+SQL: DELETE FROM `msgs` WHERE ( id = 2 ) [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002777s ]
+
+[ 2017-11-22T21:52:28+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-11-22T21:53:27+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-11-22T21:53:54+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-11-22T21:54:29+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-11-22T21:54:42+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-11-22T21:55:42+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-11-22T21:56:56+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-11-22T21:57:09+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-11-22T21:57:18+08:00 ] ::1 /www/mmsg/index.php/home/msg/viewmsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `msgs` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `msgs` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rmsgs` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `rmsgs` WHERE `msgid` = 3  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+

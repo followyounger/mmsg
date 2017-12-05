@@ -1,0 +1,186 @@
+[ 2017-11-21T21:59:03+08:00 ] ::1 /www/mmsg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010600s ]
+
+[ 2017-11-21T22:01:37+08:00 ] ::1 /www/mmsg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2017-11-21T22:03:13+08:00 ] ::1 /www/mmsg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-11-21T22:08:14+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-11-21T22:38:44+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022502s ]
+
+[ 2017-11-21T22:38:47+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-11-21T22:39:05+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2017-11-21T22:39:48+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `username` = 'test01' LIMIT 1   [ RunTime:0.0121s ]
+SQL: INSERT INTO `users` (`username`,`password`,`image`) VALUES ('test01','111','1.jpg') [ RunTime:0.0169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-11-21T22:48:01+08:00 ] ::1 /www/mmsg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-11-21T22:48:07+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+SQL: SELECT * FROM `users` WHERE `username` = 'test01' LIMIT 1   [ RunTime:0.0012s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `users` (`id`,`username`,`password`,`logintime`,`image`) VALUES ('1','test01','111','0000-00-00 00:00:00.000000','1.jpg')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `users` (`id`,`username`,`password`,`logintime`,`image`) VALUES ('1','test01','111','0000-00-00 00:00:00.000000','1.jpg')
+
+[ 2017-11-21T22:48:30+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1249 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-11-21T22:48:38+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+SQL: SELECT * FROM `users` WHERE `username` = 'fhg' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `users` (`username`,`password`,`image`) VALUES ('fhg','111','') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-11-21T22:48:43+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+SQL: SELECT * FROM `users` WHERE `username` = 'fhg' LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `users` (`id`,`username`,`password`,`logintime`,`image`) VALUES ('2','fhg','111','0000-00-00 00:00:00.000000','')
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `users` (`id`,`username`,`password`,`logintime`,`image`) VALUES ('2','fhg','111','0000-00-00 00:00:00.000000','')
+
+[ 2017-11-21T22:53:35+08:00 ] ::1 /www/mmsg/index.php/home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+NOTIC: [8] Undefined offset: 2 C:\php_workspace\www\mmsg\ThinkPHP\Library\Think\Model.class.php 第 1205 行.
+SQL: SELECT * FROM `users` WHERE `username` = 'fhg' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
