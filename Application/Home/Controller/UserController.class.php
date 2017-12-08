@@ -70,7 +70,7 @@ class UserController extends Controller
 			session('loginedUser',$userName);
 			session('loginedUserId',$userTable->getUserIdByUserName($userName));
 			//3.2跳转到首页
-			$this->success('用户登录成功！',U('msg/index')); //'/index.php/home/msg/index'
+			$this->success('用户登录成功！',U('msg/index')); 
 		}else
 		{
 			$this->error('用户名或密码错误，请重新登录');	
@@ -89,9 +89,11 @@ class UserController extends Controller
 	{
 		//1、销毁session
 		session('loginedUser',null);
+		session('loginedUserId',null);
 
 		//2、跳转到首页
-		$this->redirect('home/msg/index/');
+		$this->redirect('home/msg/index', array(), 2, '注销成功，正在跳转到首页...');
+		//redirect方法的参数用法和U函数的用法一致
 	}
 
 	public function changepassword()

@@ -8,6 +8,6 @@ return array(
 	'captcha_fontSize' => 30,
 
 	//分页相关配置
-	'page_rows' => 3,
+	'page_rows' => 5,
 	'VAR_PAGE' => 'page',
 );

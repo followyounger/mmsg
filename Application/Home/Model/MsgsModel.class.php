@@ -3,6 +3,7 @@
 namespace Home\Model;
 use Think\Model;
 use Think\Page;
+use Home\Model\UsersModel;
 
 class MsgsModel extends Model
 {
@@ -110,11 +111,23 @@ class MsgsModel extends Model
 	{
 		//1.先获取主贴
 		$msg = $this->getById($id);
-		
+		$userTable = D('users');
+		$msg['username'] = $userTable->getUserNameByUserId($msg['user_id']);
+		$image = $userTable->getImageByUserId($msg['user_id']);
+		$image = strstr($image, 'images/');
+		$msg['image'] = $image;
 
 		//2.获取回帖信息
 		$rmsgsTable = D('rmsgs');
 		$msg['rmsgs'] = $rmsgsTable->getRmsgsByMsgId($msg['id']);
+
+		for ($i=0; $i <count($msg['rmsgs']) ; $i++) { 
+			# code...
+			$msg['rmsgs'][$i]['username'] = $userTable->getUserNameByUserId($msg['rmsgs'][$i]['userid']);
+			$image = $userTable->getImageByUserId($msg['rmsgs'][$i]['userid']);
+			$image = strstr($image, 'images/');
+			$msg['rmsgs'][$i]['image'] = $image;
+		}
 
 		//3.返回
 		// dump($msg);
@@ -135,9 +148,25 @@ class MsgsModel extends Model
 		//3.获取分页码
 		$show = $page->show();
 		//4.获取分页记录
-		$msgs = $this->limit($page->firstRow . ',' . $page->listRows)->select();
+		$msgs = $this->order('time desc')->limit($page->firstRow . ',' . $page->listRows)->select();
 
-		//5.生成返回结果
+		//5.获取留言中的用户名和头像
+		$userTable = D('users');
+		
+
+		for ($i=0; $i < count($msgs) ; $i++) { 
+			# code...
+			// dump($userTable->getUserNameByUserId(12));
+			$msgs[$i]['username'] = $userTable->getUserNameByUserId($msgs[$i]['user_id']);
+			$image = $userTable->getImageByUserId($msgs[$i]['user_id']);
+			$image = strstr($image, 'images/');
+			$msgs[$i]['image'] = $image;
+			// print_r($msgs[$i]);
+		}
+
+		// dump($msgs);
+
+		//6.生成返回结果
 		$results = array();
 		$results['lists']  = $msgs;
 		$results['pages'] = $show;

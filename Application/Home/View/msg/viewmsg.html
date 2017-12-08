@@ -4,12 +4,12 @@
             <table cellspacing="0" class="forumpost">
                 <tbody><tr class="header">
                     <td class="picture left">
-                        <img src="images/2.gif" height="35" width="35">
+                        <img src="__PUBLIC__/{$msg.image}" height="35" width="35">
                     </td>
                     <td class="topic starter">
                         <div class="subject">{$msg.title}</div>
                         <div class="author">
-                            由 {$msg.user_id}                          发表于 {$msg.time}                     </div>
+                            由 {$msg.username}                          发表于 {$msg.time}                     </div>
                     </td>                   
                 </tr>
                 <tr>
@@ -29,11 +29,11 @@
             <table cellspacing="0" class="forumpost" style="margin-left: 50px;">
     <tbody><tr class="header">
         <td class="picture left">
-            <img src="images/2.gif" height="35" width="35">
+            <img src="__PUBLIC__/{$vo.image}" height="35" width="35">
         </td>
         <td class="topic">
             <div class="subject">回复: </div>
-            <div class="author">由 {$vo.userid} 发表于 {$vo.time}</div>
+            <div class="author">由 {$vo.username} 发表于 {$vo.time}</div>
         </td>
     </tr>
     
@@ -46,7 +46,7 @@
                             
             <div class="commands">
                 <a href="/rmsg/editrmsg/rmsgid/{$vo.id}">编辑</a> | 
-                <a href="{:U('rmsg/deletermsg',array('rmsgid' => $vo[id]))}">删除</a>
+                <a href="{:U('rmsg/deletermsg',array('rmsgid' => $vo[id],'ruser_id' => $vo[userid]))}">删除</a>
             </div>      </td>
     </tr>
 </tbody></table>  

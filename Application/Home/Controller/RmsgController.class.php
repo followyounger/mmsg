@@ -63,16 +63,25 @@ class RmsgController extends Controller
 		
 		$rmsg = $rmsgsTable->getRmsgById(I('get.rmsgid'));
 
+		$ruser_id = I('get.ruser_id');
 
+		if(session('?loginedUser') && session('loginedUserId') == $ruser_id)
+		{
 		
 		// 
-		$r = $rmsgsTable->deleteRmsg('id=' . I('get.rmsgid'));
-		if (false !== $r) {  //删除成功
-			$this->success('回帖删除成功!',U('msg/viewmsg?msgid=' . $rmsg['msgid']),4);
+			$r = $rmsgsTable->deleteRmsg('id=' . I('get.rmsgid'));
+			if (false !== $r) {  //删除成功
+				$this->success('回帖删除成功!',U('msg/viewmsg?msgid=' . $rmsg['msgid']),4);
+			}else
+			{
+				//留言删除失败
+				$this->error('回帖删除失败！');
+			}
+
 		}else
 		{
-			//留言删除失败
-			$this->error('回帖删除失败！');
+			//提示用户登录，不能删除留言
+			$this->error('只有添加该回帖的用户才可以删除回帖');
 		}
 
 	}

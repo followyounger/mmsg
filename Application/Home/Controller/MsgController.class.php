@@ -15,6 +15,7 @@ class MsgController extends Controller
 	{
 		$msgsTable = D('msgs');
 
+
 		
 
 		if(IS_POST)
@@ -106,7 +107,7 @@ class MsgController extends Controller
 				$this->display();
 			}else
 			{
-				//提示用户登录，不能添加留言
+				//提示用户登录，不能修改留言
 				$this->error('只有留言的发表者才可以修改留言',U('msg/index/'));
 			}
 		}
@@ -117,13 +118,24 @@ class MsgController extends Controller
 		$msgsTable = D('msgs');
 		
 		// 
-		$r = $msgsTable->deleteMsg('id=' . I('get.msgid'));
-		if (false !== $r) {  //删除成功
-			$this->success('留言删除成功!',U('msg/index/'),4);
+		$msgObj = $msgsTable->getMsgById(I('get.msgid'));
+		//3.是否为当前用户发表的留言
+		if(session('?loginedUser') && session('loginedUserId') == $msgObj['user_id'])
+		{
+
+			$r = $msgsTable->deleteMsg('id=' . I('get.msgid'));
+			if (false !== $r) {  //删除成功
+				$this->success('留言删除成功!',U('msg/index/'),4);
+			}else
+			{
+				//留言删除失败
+				$this->error('留言删除失败！');
+			}
+
 		}else
 		{
-			//留言删除失败
-			$this->error('留言删除失败！');
+			//提示用户登录，不能删除留言
+			$this->error('只有留言的发表者才可以删除留言',U('msg/index/'));
 		}
 	}
 
@@ -135,10 +147,15 @@ class MsgController extends Controller
 		// echo "Msg控制器中的index方法";
 		
 		$msgsTable = D('msgs');
+
+		// $usersTable = D('users');
+
 		//获取分页记录
 		$r = $msgsTable->getMsgsByPage();
 		// dump($r);
-		// 
+		
+		// $username = $usersTable->getUserNameByUserId(2);
+		// dump($username);
 		//分页记录和分页信息赋值给视图文件
 		$this->assign('lists',$r['lists']);
 		$this->assign('pages',$r['pages']);

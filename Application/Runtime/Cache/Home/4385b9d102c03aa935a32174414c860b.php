@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-cn" xml:lang="zh-cn">
 <head>
     <title>多用户留言系统</title>
-    <link rel="stylesheet" type="text/css" href="/Public/css/moodle.css" />
-    <link rel="stylesheet" type="text/css" href="/Public/css/moodle2.css" />
-    <script type="text/javascript" src="/Public/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/www/mmsg/Public/css/moodle.css" />
+    <link rel="stylesheet" type="text/css" href="/www/mmsg/Public/css/moodle2.css" />
+    <script type="text/javascript" src="/www/mmsg/Public/script.js"></script>
 </head>
  
 <body  class="login course-1 notloggedin dir-ltr lang-zh_cn_utf8" id="login-index"> 
@@ -13,10 +13,10 @@
             <h1 class="headermain">多用户留言系统</h1> 
             <div class="headermenu">
                 <div class="logininfo">
-                    <?php if(isset($_SESSION['loginedUser'])): ?>欢迎您，<?php echo (session('loginedUser')); ?>！ | <a href='/index.php/home/user/logout/'>注销</a>
+                    <?php if(isset($_SESSION['loginedUser'])): ?>欢迎您，<?php echo (session('loginedUser')); ?>！ | <a href="<?php echo U('user/logout');?>">注销</a>
                     <?php else: ?>
-                    您尚未登录(<a  href='/index.php/home/user/login/'>登录</a>)&nbsp;
-                    还没有用户名(<a href='/index.php/home/user/register/'>注册</a>)<?php endif; ?>
+                    您尚未登录(<a  href="<?php echo U('user/login');?>">登录</a>)&nbsp;
+                    还没有用户名(<a href="<?php echo U('user/register');?>">注册</a>)<?php endif; ?>
                 </div>
             </div> 
         </div>      
@@ -25,7 +25,7 @@
         <div class="navbar clearfix"> 
             <div class="breadcrumb"> 
                 <ul> 
-                    <li class="first"><a href="/">多用户留言系统</a></li>
+                    <li class="first"><a href="<?php echo U('msg/index');?>">多用户留言系统</a></li>
                     <li> <span class="arrow sep">&#x25BA;</span> <?php echo ($view_title); ?> </li>
                 </ul>
             </div>          
@@ -63,8 +63,8 @@
                 <?php if(is_array($lists)): foreach($lists as $key=>$vo): ?><tr class="">
                     <td class="topic starter" width="40%"><a href="<?php echo U('msg/viewmsg');?>?msgid=<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></td>
                     <td width="20%" style="line-height: 35px;">
-                        <img class="userpicture" src="images/2.gif" height="35" width="35">
-                        <span>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["user_id"]); ?></span>
+                        <img class="userpicture" src="/www/mmsg/Public/<?php echo ($vo["image"]); ?>" height="35" width="35">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["username"]); ?></span>
                     </td>
                     <td class="replies" width="20%"><?php echo ($vo["time"]); ?></td>
                     <td class="lastpost" width="20%" style="text-align: center;">
@@ -89,7 +89,7 @@
         
         <!-- START OF FOOTER -->
         <div id="footer">
-            &copy;2017 <a href="#">我叫 叶 茂 昭~~跟我念一遍</a><br />
+            &copy;2017 <a href="https://github.com/yemaozhao" target="_blank"> 点击打开我的Github</a><br />
         </div>
         <!-- END OF FOOTER -->
     </div>

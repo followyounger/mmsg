@@ -1,0 +1,18 @@
+[ 2017-12-06T16:39:08+08:00 ] ::1 /index.php/index.php/Home/msg/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Index.php
+
+[ 2017-12-06T16:39:56+08:00 ] ::1 /index.php/index.php/home/msg/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Index.php
+
+[ 2017-12-06T16:43:20+08:00 ] ::1 /index.php/U('home/msg/index').html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:U('home
+

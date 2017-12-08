@@ -29,8 +29,8 @@
                 <tr class="">
                     <td class="topic starter" width="40%"><a href="{:U('msg/viewmsg')}?msgid={$vo.id}">{$vo.title}</a></td>
                     <td width="20%" style="line-height: 35px;">
-                        <img class="userpicture" src="images/2.gif" height="35" width="35">
-                        <span>&nbsp;&nbsp;&nbsp;&nbsp;{$vo.user_id}</span>
+                        <img class="userpicture" src="__PUBLIC__/{$vo.image}" height="35" width="35">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;{$vo.username}</span>
                     </td>
                     <td class="replies" width="20%">{$vo.time}</td>
                     <td class="lastpost" width="20%" style="text-align: center;">

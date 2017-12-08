@@ -11,15 +11,33 @@ class UsersModel extends Model
 	protected $_validate = array(
 		array('username','require'),
 		array('password','require'),
-		array('username','','帐号名称已经存在！',0,'unique',1),
+		array('username','','帐号名称已经存在！请返回重新注册。',0,'unique',1),
 	);
 	//////////////////////////////////////////////////////
 	///
 	
+
 	public function getUserIdByUserName($userName)
 	{
 		$cond['username'] = $userName;
 		$r = $this->where($cond)->getField('id');
+		return $r;
+	}
+
+
+	public function getUserNameByUserId($userId=1)
+	{
+		$cond['id'] = $userId;
+		$r = $this->where($cond)->getField('username');
+		// dump($r);
+		return $r;
+
+	}
+
+	public function getImageByUserId($userId)
+	{
+		$cond['id'] = $userId;
+		$r = $this->where($cond)->getField('image');
 		return $r;
 	}
 
@@ -35,7 +53,7 @@ class UsersModel extends Model
 		// 	return false;
 		if(empty($userImage))
 		{
-			$userImage = '1.jpg';
+			$userImage = '/Public/images/0.gif';
 		}
 
 		// //2、判断用户是否存在（若用户已经存在，不能再注册该用户名）
@@ -45,7 +63,7 @@ class UsersModel extends Model
 		//3、实现注册操作
 		
 		$data['username']=$userName;
-		$data['password']=$userPswd;
+		$data['password']=md5($userPswd);
 		$data['image'] = $userImage;
 
 		// return $this->add($data);
@@ -118,7 +136,7 @@ class UsersModel extends Model
 	{
 		$count = $this->where(array(
 			'username'=>$userName,
-			'password'=>$userPswd,
+			'password'=>md5($userPswd),
 		)
 		)->count();
 		// dump($count);
